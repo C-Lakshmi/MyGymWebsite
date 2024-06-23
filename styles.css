@@ -1,0 +1,210 @@
+
+@font-face {
+    font-family: Poppins;
+    src: url("Poppins-Black.ttf");
+}
+@font-face {
+    font-family: Oswald;
+    src: url("Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: RobotoC;
+    src: url("RobotoCondensed-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: cedarcursive;
+    src: url("CedarvilleCursive-Regular.ttf");
+}
+*{
+    margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+body{
+  background: black;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.btn{
+  margin-top: 3vw;
+  width: 20vw;
+  padding: 1vw;
+  color: white;
+  background: tomato;
+  font-size: 1.2vw;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0.1vw solid white;
+}
+.btn:hover{
+  background: rgba(212, 48, 48, 0.76);
+  transition: 0.4s;
+}
+
+.header{
+  position: fixed;
+  top: 1vw;
+  left: 1vw;
+  right: 1vw;
+  z-index: 1000;
+  border-radius: 15px;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: space-between;
+  background-color: white;
+}
+.header .logo{
+  font-size: 1.8vw;
+  font-weight: bolder;
+  color: black;
+  padding-right: 1vw;
+  margin-right: 0rem;
+}
+.header .logo i{
+  color: black;
+  padding: 0.5rem;
+}
+.header .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: black;
+}
+.header .navbar a:hover{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 0.6vw;
+}
+.header .btn{
+  background: transparent;
+  color: tomato;
+  border: 0.1vw solid tomato;
+  font-size: 1.1vw;
+  padding: 0.4vw;
+}
+.home{
+  display: flex;
+}
+.home .max-width{
+  width: 132%;
+  display: flex;
+  max-width: 130vw;
+  margin-top: 8vw;
+  padding: 1vw;
+}
+.home .home-content{
+  width: 56%;
+  padding: 1vw;
+  margin-left: 2vw;
+  margin-top: 0vw;
+  height: 100%;
+}
+.home h4{
+  color: white;
+  font-size: 6.1vw;
+  font-family: Oswald, sans-serif;
+}
+.home p{
+  color: rgb(194, 191, 191);
+  margin-top: 0.6vw;
+  font-size: 1.15vw;
+}
+.home .home-image{
+  width: 50%;
+}
+.home .home-image img{
+  width: 46vw;
+  height: 44vw;
+  border-radius: 20px;
+}
+#mid{
+display: inline-block;
+width: 96vw;
+height: 65vw;
+background-repeat: no-repeat;
+background-image: url("ppl.webp");
+border: 1px solid white;
+margin-top: 8vw; margin-left: 1.4vw; border-radius: 15px;
+}
+.form {
+    float: left;
+    border: 2px solid white;
+    padding: 2vw;
+    width: 45%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin: 3vw;
+}
+
+.form-group input {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    width: 35vw;
+    padding: 1vw;
+    border: 2px solid black;
+    margin: 0.5vw auto;
+    font-size: 1.5vw;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.form h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.form button {
+    display: block;
+    width: 74%;
+    margin: 1vw auto;
+    background-color: tomato;
+    color: white;
+}
+.form button :hover{
+    background-color: rgb(194, 31, 3);
+    transition-duration: 0.4s;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(22, 21, 21);
+    padding: 3vw;
+    width: 100%;
+    margin-top: 8vw;
+    border-radius: 10px;
+}
+.footer_col_main{
+    width: 40%;
+    margin-left: 0vw;
+    background-color: rgb(22, 21, 21);
+}
+#right{
+    display: flex;
+    color: white;
+}
+.footer_col{
+    width: 19vw;
+    text-align: center;
+}
+#right .footer_col :hover{
+color: darkorange;
+}
+.footer_socials a{
+color: white; 
+margin-left: 1.2vw;
+}
+.footer_socials a:hover{
+    color: darkorange;
+}
+#right .footer_col a{
+    color: white; 
+    font-family: Oswald;
+}
